@@ -15,6 +15,18 @@ body {
 a {
     text-decoration: none;
     color: #000;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    align-items: center;
 }
 
 .main-content {
@@ -248,4 +260,185 @@ nav .sign-up {
     font-size: 4.4rem;
     font-weight: 700;
     line-height: 5.4rem; /* 122.727% */
+}
+
+/* Popular Courses */
+.courses {
+    padding: 200px 0;
+}
+.courses .heading {
+    margin-bottom: 55px;
+}
+.courses .info-group .title {
+    margin-bottom: 16px;
+
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+.courses .info-group .desc {
+    width: 458px;
+
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem; /* 166.667% */
+}
+.courses .slide-btn-group {
+    margin-left: auto;
+}
+.courses .slide-btn-group .border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+    height: 40px;
+
+    border: 1px solid #ffb900;
+    border-radius: 50%;
+}
+.courses .slide-btn-group .left {
+    margin-right: 18px;
+}
+.courses .slide-btn-group .right {
+    background-color: #ffb900;
+}
+
+.courses .card-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses .card {
+    width: 370px;
+
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.courses .card .thumbnail {
+    margin-bottom: 16px;
+    width: 370px;
+    height: 278px;
+
+    border-radius: 12px 12px 0px 0px;
+    object-fit: cover;
+}
+.courses .card .wrap {
+    padding: 0 22px 22px;
+}
+.courses .card .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem; /* 166.667% */
+}
+.courses .card .rating {
+    margin-left: auto;
+}
+.courses .rating span {
+    margin-left: 6px;
+
+    color: #fea31b;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+}
+.courses .card .desc {
+    margin-top: 6px;
+
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+.courses .card .cta {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses .price {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem; /* 166.667% */
+}
+.courses .cta .cta-btn {
+    border-radius: 25px;
+    background: #ffb900;
+}
+
+/* Review Section */
+.review {
+    background: #2e2100;
+    padding: 96px 0;
+}
+.review .wrap {
+    display: flex;
+    align-items: center;
+}
+.review .person-block {
+}
+.person-block .profile-pic {
+    width: 72px;
+    height: 72px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+.person-block .name {
+    margin-top: 18px;
+
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem; /* 141.667% */
+}
+.person-block .desc {
+    margin-top: 4px;
+
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+.person-block .page-dot {
+    margin-top: 28px;
+}
+.page-dot .dot {
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+
+    border-radius: 6px;
+    background: #634700;
+}
+.page-dot .active {
+    background: #ffb900;
+}
+.review .review-block {
+    position: relative;
+
+    margin-left: auto;
+    padding: 28px 0 0 30px;
+}
+.review-block .quote-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.review-block .comment {
+    width: 740px;
+
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4rem; /* 153.846% */
 }
