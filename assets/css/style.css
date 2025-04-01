@@ -38,12 +38,14 @@ button {
 .btn {
     display: inline-block;
     min-width: 118px;
-    padding: 17px 0;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     border-radius: 25px;
     background: #171100;
     color: #fff;
-    text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
 }
@@ -376,7 +378,12 @@ nav .sign-up {
     line-height: 3rem; /* 166.667% */
 }
 .courses .cta .cta-btn {
-    border-radius: 25px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.courses .cta .active {
     background: #ffb900;
 }
 
@@ -490,6 +497,7 @@ nav .sign-up {
 }
 .cta-section .info .cta-btn {
     margin-top: 32px;
+    width: 137px;
 
     border-radius: 26px;
     background: #ffb900;
@@ -579,6 +587,8 @@ nav .sign-up {
     line-height: 2.8rem; /* 175% */
 }
 .blog-section .card .cta-btn {
+    width: 118px;
+
     border-radius: 25px;
     color: #fff;
     font-size: 1.4rem;
@@ -592,4 +602,83 @@ nav .sign-up {
     margin-top: 38px;
     display: flex;
     justify-content: center;
+}
+
+/* Footer */
+footer {
+    background: #2e2100;
+    padding: 96px 0 28px;
+}
+footer .container {
+    display: flex;
+}
+.container .contact .logo {
+    margin-bottom: 18px;
+}
+.container .contact .desc {
+    width: 267px;
+    margin-bottom: 18px;
+
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+.container .contact .social .icon {
+    display: inline-block;
+    margin-right: 14px;
+}
+.container .info {
+    margin-left: 145px;
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+.container .box .title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.container .box .separate {
+    margin-top: 14px;
+    width: 130px;
+    height: 1px;
+    background: #59554b;
+}
+.container .list a {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+.container .list {
+    margin-top: 28px;
+}
+.container li {
+    margin-bottom: 12px;
+}
+.container .support li {
+    width: 137px;
+}
+.container .address {
+    margin-bottom: 12px;
+}
+.container .address b {
+    color: #fff;
+    font-weight: 600;
+}
+footer .separate {
+    margin-top: 38px;
+    width: 1170px;
+    height: 1px;
+    background: #59554b;
+}
+footer .copyright {
+    margin-top: 28px;
+
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
 }
