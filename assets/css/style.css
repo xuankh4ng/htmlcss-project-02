@@ -50,6 +50,13 @@ button {
 .btn:hover {
     opacity: 0.7;
 }
+.card {
+    width: 370px;
+
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
 
 /* Header */
 header {
@@ -442,13 +449,13 @@ nav .sign-up {
 }
 
 /* CTA Section */
-.cta {
+.cta-section {
     padding: 200px 0;
 }
-.cta .img-block {
+.cta-section .img-block {
     gap: 30px;
 }
-.cta .img-block img {
+.cta-section .img-block img {
     width: 270px;
     height: 404px;
 
@@ -461,11 +468,11 @@ nav .sign-up {
 .img-block img:nth-of-type(2) {
     margin-bottom: 34px;
 }
-.cta .feature1 .info {
+.cta-section .feature1 .info {
     margin-left: auto;
     width: 470px;
 }
-.cta .info .title {
+.cta-section .info .title {
     color: #171100;
     font-family: Sen;
     font-size: 3.8rem;
@@ -473,7 +480,7 @@ nav .sign-up {
     line-height: 4.8rem; /* 126.316% */
     letter-spacing: -0.076rem;
 }
-.cta .info .desc {
+.cta-section .info .desc {
     margin-top: 16px;
 
     color: #5f5b53;
@@ -481,13 +488,13 @@ nav .sign-up {
     font-weight: 400;
     line-height: 2.8rem; /* 175% */
 }
-.cta .info .cta-btn {
+.cta-section .info .cta-btn {
     margin-top: 32px;
 
     border-radius: 26px;
     background: #ffb900;
 }
-.cta .feature2 {
+.cta-section .feature2 {
     margin-top: 200px;
 }
 .feature2 .info {
@@ -500,4 +507,89 @@ nav .sign-up {
 
     border-radius: 20px;
     object-fit: cover;
+}
+/* Blog Section */
+.blog-section {
+    padding: 96px 0;
+    background: #fffcf4;
+}
+.blog-section .heading {
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-section .heading .title {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+.blog-section .heading .desc {
+    width: 448px;
+    margin: 16px auto 0;
+    color: #696262;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+}
+.blog-section .card-group {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.blog-section .card img {
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+}
+.blog-section .wrap {
+    padding: 20px 20px 28px;
+}
+.blog-section .date .circle {
+    width: 6px;
+    height: 6px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background-color: #ffb900;
+}
+.blog-section .separate {
+    width: 160px;
+    height: 1px;
+    margin: 12px 0px;
+    border-radius: 0.5px;
+    background: #e2dfda;
+}
+.blog-section .card .desc {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+.blog-section .card .title {
+    margin-bottom: 12px;
+
+    color: #171100;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.8rem; /* 175% */
+}
+.blog-section .card .cta-btn {
+    border-radius: 25px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.blog-section .active {
+    background: #ffb900;
+}
+
+.blog-section .page-dot {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
 }
